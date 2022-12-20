@@ -1,0 +1,66 @@
+.grid__1,
+.grid__2,
+.grid__3,
+.grid__4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__2>div:nth-child(1) {
+    order: 2
+}
+
+.grid__2>div:nth-child(2) {
+    order: 1
+}
+
+.grid__2>div:nth-child(3) {
+    order: 3
+}
+
+.grid__3>div:nth-child(1) {
+    order: 1
+}
+
+.grid__3>div:nth-child(2) {
+    order: 2
+}
+
+.grid__3>div:nth-child(3) {
+    order: 3
+}
+
+.grid__4>div:nth-child(1) {
+    order: 3
+}
+
+.grid__4>div:nth-child(2) {
+    order: 2
+}
+
+.grid__4>div:nth-child(3) {
+    order: 1
+}
+
+.grid__itemBig {
+    margin: 10px;
+    width: calc(50% - 20px);
+    height: 200px;
+    background-image: url("./../src/assets/1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.grid__itemSmall {
+    margin: 10px;
+    width: calc(25% - 20px);
+    height: 200px;
+    background-image: url("./../src/assets/2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
